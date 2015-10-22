@@ -10,7 +10,7 @@ namespace ExampleProjectTests
       [TestMethod]
       public void FormatLogText_OutputContainsExpectedString()
       {
-         string _expectedStringContents = "Some test string";
+         string _expectedStringContents = "Some test stringA";
          string _actualString = SupportingClass.FormatLogText( "Some test string" );
          Assert.IsTrue( _actualString.Contains( _expectedStringContents ) );
       }
